@@ -6,3 +6,11 @@ Tujuan latihan kali ini adalah menciptakan aplikasi yang bersifat:
 - Mudah dikembangkan;
 - Mudah diadaptasi oleh berbagai framework;
 - Teruji dan terhindar dari bugs;
+
+TODO:  
+- [x] Custom Error
+  * ClientError
+  * InvariantError
+  * AuthenticationError
+  * NotFoundError
+- [ ] Fitur Registrasi Penguna
