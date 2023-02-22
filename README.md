@@ -13,4 +13,13 @@ TODO:
   * InvariantError
   * AuthenticationError
   * NotFoundError
-- [ ] Fitur Registrasi Penguna
+- [x] Fitur Registrasi Penguna
+- [ ] Fitur Autentikasi atau proses login
+  * [ ] Memperbaharui authentikasi atau refresh token
+  * [ ] Menghapus autentikasi atau peoses logout
+
+Tips dalam mengembangkan fitur baru: 
+  * Kebutuhan bisnis seperti domain model dan repository interface + unit test.
+  * Alur bisnis atau use case dan service interface yang dibutuhkan use case + unit test.
+  * Kebutuhan infrastructure seperti database (termasuk pembuatan tabel jika diperlukan), repository concreate, service concreate + integration testing.
+  * Kebutuhan interface HTTP server seperti routing dan handler + functional testing.
