@@ -1,6 +1,6 @@
 class RegisterUser {
   constructor(payload) {
-    this.validationPayload(payload);
+    this._validationPayload(payload);
 
     const { username, password, fullname } = payload;
     this.username = username;
@@ -8,7 +8,7 @@ class RegisterUser {
     this.fullname = fullname;
   }
 
-  validationPayload({ username, password, fullname }) {
+  _validationPayload({ username, password, fullname }) {
     if (!username || !password || !fullname) {
       throw new Error('REGISTER_USER.NOT_CONTAIN_NEEDED_PROPERTY');
     }
