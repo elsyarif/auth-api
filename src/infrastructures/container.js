@@ -16,7 +16,7 @@ const AddUserUseCase = require('../applications/use_cases/AddUserUseCase');
 const UserRepository = require('../domains/users/UserRepository');
 const PasswordHash = require('../applications/security/PasswordHash');
 
-// create containter
+// create container
 const container = createContainer();
 
 // registering service and repository
@@ -61,7 +61,7 @@ container.register([
           internal: UserRepository.name,
         },
         {
-          name: 'passwordhash',
+          name: 'passwordHash',
           internal: PasswordHash.name,
         },
       ],
